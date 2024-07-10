@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Label Content="To Do List" Margin="10,10, 10,60" HorizontalAlignment="Center" FontSize="30"/>
+        <ListBox x:Name="listTasks" Margin="10,60,10,50"></ListBox>
+        <TextBox x:Name="txtNewTask" Margin="10,0,50,10" Height="30" VerticalAlignment="Bottom"/>
+        <Button  Content="+" Margin="350,0,10,10" Height="30" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
